@@ -60,7 +60,7 @@ export default function Hero() {
               I'm a Bengaluru-based <strong>Frontend Software Engineer</strong>, currently  <strong>Freelancing</strong> helping build a modern, site builder and actively looking for Job Opportunities.
             </p>
             <p className="mt-3 text-gray-400">
-              In my free time, you can catch me playing <strong>Badminton</strong>,<strong>Billiards</strong>, learning <strong>New technologies and on how to trade </strong> or exploring beautiful <strong>Bengaluru city</strong>.
+              In my free time, you can catch me playing <strong>Badminton </strong>,<strong> Billiards</strong>, learning <strong>New technologies and on how to trade </strong> or exploring beautiful <strong>Bengaluru city</strong>.
             </p>
             {/* <div className="mt-4 flex gap-4">
               <button className="bg-accent text-black px-4 py-2 rounded-lg font-semibold hover:bg-green-400">Resume</button>
