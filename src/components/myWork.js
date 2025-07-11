@@ -37,7 +37,7 @@ export default function MyWorks() {
             <img
               src={work.img}
               alt={work.title}
-              className="h-48 w-full object-cover rounded-t-xl"
+              className="h-48 w-full object-fill rounded-t-xl"
             />
             <div className="p-4">
               <h3 className="text-xl font-semibold text-green-400">{work.title}</h3>

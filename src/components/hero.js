@@ -1,6 +1,6 @@
 
 import deskImage from '../assets/deskup.jpg'; // replace with your image
-import { FaGithub, FaLinkedin, FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { FaGithub, FaLinkedin} from "react-icons/fa6";
 import { ReactTyped } from 'react-typed';
 
 export default function Hero() {
@@ -36,21 +36,52 @@ export default function Hero() {
             <h1 className="text-2xl font-bold mb-2">Nithin</h1>
             <div className="flex gap-3 text-lg mb-4">
 
-              <FaGithub className="hover:text-green-500 cursor-pointer" />
-              <FaLinkedin className="hover:text-green-500 cursor-pointer" />
-              <FaInstagram className="hover:text-green-500 cursor-pointer" />
-              <FaXTwitter className="hover:text-green-500 cursor-pointer" />
+             <div className="flex gap-3 text-lg mb-4">
+                <a
+                  href="http://github.com/nithinvr001"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-green-500 transition-colors duration-300"
+                >
+                  <FaGithub className="cursor-pointer" />
+                </a>
+
+                <a
+                  href="http://linkedin.com/in/nithinvramesh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-green-500 transition-colors duration-300"
+                >
+                  <FaLinkedin className="cursor-pointer" />
+                </a>
+              </div>
             </div>
             <p className="text-gray-300">
               I'm a Bengaluru-based <strong>Frontend Software Engineer</strong>, currently  <strong>Freelancing</strong> helping build a modern, site builder and actively looking for Job Opportunities.
             </p>
             <p className="mt-3 text-gray-400">
-              In my free time, you can catch me training in <strong>Muay Thai</strong>, plucking my <strong>banjo</strong>, or exploring beautiful <strong>Vancouver Island</strong>.
+              In my free time, you can catch me playing <strong>Badminton</strong>,<strong>Billiards</strong>, learning <strong>New technologies and on how to trade </strong> or exploring beautiful <strong>Bengaluru city</strong>.
             </p>
-            <div className="mt-4 flex gap-4">
+            {/* <div className="mt-4 flex gap-4">
               <button className="bg-accent text-black px-4 py-2 rounded-lg font-semibold hover:bg-green-400">Resume</button>
               <button className="border border-accent text-accent px-4 py-2 rounded-lg font-semibold hover:bg-green-700 hover:text-white">Contact</button>
-            </div>
+            </div> */}
+            <div className="mt-4 flex gap-4">
+                <a
+                  href="/resume.pdf"
+                  download
+                  className="bg-accent text-black px-4 py-2 rounded-lg font-semibold hover:bg-green-400"
+                >
+                  Resume
+                </a>
+                <a
+                  href="#contact"
+                  className="border border-accent text-accent px-4 py-2 rounded-lg font-semibold hover:bg-green-700 hover:text-white"
+                >
+                  Contact
+                </a>
+              </div>
+
           </div>
         </div>
       </div>

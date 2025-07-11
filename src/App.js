@@ -2,6 +2,7 @@ import './App.css';
 import About from './components/about';
 import Contact from './components/contact';
 import EduNExp from './components/EduNExp';
+import Footer from './components/footer';
 import Hero from './components/hero';
 import MyWorks from './components/myWork';
 import Stats from './components/stats';
@@ -18,6 +19,7 @@ function App() {
         <MyWorks/>
         <EduNExp/>
         <Contact />
+        <Footer />
       </div>
 
 
