@@ -36,7 +36,7 @@ export default function About() {
               <FaFlag className="text-green-500" /> <strong>Nationality:</strong> Indian
             </div>
             <div className="flex items-center gap-2">
-              <FaTools className="text-green-500" /> <strong>Interests:</strong> Snooker ,Gokarting ,Reading Technical articles ,Listening to Podcasts
+              <FaTools className="text-green-500" /> <strong>Interests:</strong> Snooker ,Gokarting, Listening to Podcasts
             </div>
             <div className="flex items-center gap-2">
               <FaUniversity className="text-green-500" /> <strong>Study:</strong> Acharya Institute of technology
