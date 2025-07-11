@@ -5,34 +5,20 @@ export default function TechStack() {
         {
             category: 'Frontend',
             skills: [
-                { tech: 'React', knowledge: 50 },
-                { tech: 'Vue', knowledge: 40 },
-                { tech: 'Typescript', knowledge: 30 },
+                { tech: 'React', knowledge: 60 },
+                { tech: 'Angular', knowledge: 50 },
+                { tech: 'Typescript', knowledge: 60 },
                 { tech: 'GraphQL', knowledge: 30 },
             ],
           },
         {
             category: 'Backend',
             skills: [
-                { tech: 'React', knowledge: 50 },
-                { tech: 'Vue', knowledge: 40 },
-                { tech: 'Svelte', knowledge: 30 },
+                { tech: 'MongoDB', knowledge: 50 },
+                { tech: 'Java', knowledge: 60 },
+                { tech: 'NodeJS', knowledge: 50 },
             ],
-        }, {
-            category: 'Mobile',
-            skills: [
-                { tech: 'React', knowledge: 50 },
-                { tech: 'Vue', knowledge: 40 },
-                { tech: 'Svelte', knowledge: 30 },
-            ],
-        }, {
-            category: 'Security',
-            skills: [
-                { tech: 'React', knowledge: 50 },
-                { tech: 'Vue', knowledge: 40 },
-                { tech: 'Svelte', knowledge: 30 },
-            ],
-          },
+        }
     ]
     return(
       <section className="p-3 lg:p-6 text-white">

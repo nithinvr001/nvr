@@ -1,5 +1,5 @@
 
-import deskImage from '../assets/desketup.jpg'; // replace with your image
+import deskImage from '../assets/deskup.jpg'; // replace with your image
 import { FaGithub, FaLinkedin, FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { ReactTyped } from 'react-typed';
 
@@ -42,7 +42,7 @@ export default function Hero() {
               <FaXTwitter className="hover:text-green-500 cursor-pointer" />
             </div>
             <p className="text-gray-300">
-              I'm a Bengaluru-based <strong>Frontend Software Engineer</strong>, currently working at <strong>Instant Domains</strong> helping build a modern, mobile-first domain registrar and site builder.
+              I'm a Bengaluru-based <strong>Frontend Software Engineer</strong>, currently  <strong>Freelancing</strong> helping build a modern, site builder and actively looking for Job Opportunities.
             </p>
             <p className="mt-3 text-gray-400">
               In my free time, you can catch me training in <strong>Muay Thai</strong>, plucking my <strong>banjo</strong>, or exploring beautiful <strong>Vancouver Island</strong>.
