@@ -16,13 +16,13 @@ export default function About() {
             <p className="text-gray-290">
              I'm a <strong>frontend developer</strong> with a builder's mindset - driven by curiosity, fueled by creativity, and committed to crafting
              meaningful digital experiences. What began as an interest in web technologies has evolved into a focused pursuit of technical mastery and purposeful design. Over the past year, I've worked across freelance projects and team
-             collaborations, delivering responsive, performance-driven websites for real-world use. I specialize in modern frameworks like <strong>React and Angular </strong> and I'm particularlydrawn to translating complex ideas into clean, usable interfaces that feel intuitive across devices.
+             collaborations, delivering responsive, performance-driven websites for real-world use. I specialize in modern frameworks like <strong>React and Angular </strong> and I'm particularly drawn to translating complex ideas into clean, usable interfaces that feel intuitive across devices.
             </p>
             <p className="mt-3 text-gray-300">
              My <strong>entrepreneurial spirit </strong> has taught me more than just initiative - it's refined my communication, sharpened my adaptability,
              and shaped me into a team player who thrives in fast-paced environments. Whether I'm debugging a tricky Ul issue or
              brainstorming product features, I bring a mix of precision and problem-solving to everything I do. Now, I'm actively seeking an
-             opportunitv to row Within a companv that values Innovation, learnina, and collaboration - Where I can not oniv contribute but evolve.
+             opportunity to row Within a companv that values Innovation, learning, and collaboration - Where I can not only contribute but evolve.
 
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-gray-300 mt-6">
