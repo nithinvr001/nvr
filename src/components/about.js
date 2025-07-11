@@ -22,7 +22,7 @@ export default function About() {
              My <strong>entrepreneurial spirit </strong> has taught me more than just initiative - it's refined my communication, sharpened my adaptability,
              and shaped me into a team player who thrives in fast-paced environments. Whether I'm debugging a tricky Ul issue or
              brainstorming product features, I bring a mix of precision and problem-solving to everything I do. Now, I'm actively seeking an
-             opportunity to row Within a companv that values Innovation, learning, and collaboration - Where I can not only contribute but evolve.
+             opportunity to row Within a company that values Innovation, learning, and collaboration - Where I can not only contribute but evolve.
 
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-gray-300 mt-6">
