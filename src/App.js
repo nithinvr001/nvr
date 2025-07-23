@@ -11,7 +11,7 @@ import TechStack from './components/tectStack';
 function App() {
   return (
     <div className="App">
-      <div className='!bg-[#282c34] max-w-[90%] mx-auto rounded-[30px]'>
+      <div className='!bg-[#282c34] max-w-[90%] mb-[50px] mx-auto rounded-[30px]'>
         <Hero />
         <About />
         <Stats />

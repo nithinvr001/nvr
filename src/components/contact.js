@@ -31,7 +31,7 @@ export default function Contact() {
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
           <div className="mb-6 max-w-3xl text-center md:mx-auto md:mb-12">
             <p className="text-base font-semibold uppercase tracking-wide text-blue-600 dark:text-blue-200">Contact</p>
-            <h2 className="font-heading mb-4 font-bold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl">
+            <h2 className="font-heading mb-20 font-bold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl">
               <span className="text-green-500">Get i</span>n Touch
             </h2>
           </div>
@@ -67,7 +67,7 @@ export default function Contact() {
               </div>
 
               {/* Right Side Form */}
-              <div className="card h-fit max-w-6xl p-5 md:p-12" id="form">
+              <div className="card h-fit max-w-6xl" id="form">
                 <h2 className="mb-4 text-2xl font-bold dark:text-white">Ready to Get Started?</h2>
                 <form id="contactForm" ref={form} onSubmit={sendEmail}>
                   <div className="mb-6">

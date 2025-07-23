@@ -36,93 +36,76 @@ export default function EduNExp() {
     ];
 
     return (
+        
         <section className="text-white p-3 lg:p-6">
-            <div className="lg:flex lg:space-x-10 p-3 lg:p-6">
-                <div>
-                    <h2 className="text-3xl font-bold py-[40px]">
-                        <span className="text-green-500">Exp</span>erince
-                    </h2>
-                    <ol className="  mt-3 lg:mt-0 relative border-s border-gray-200 dark:border-gray-700 ">
-                {timelineData.map((item, index) => (
-                    <div>
-                        <li key={index} className="ms-4 mb-10">
-
-                            <div className="absolute text-sm -start-3 p-1 border rounded-full  dark:border-green-700 ">{item.duration}</div>
-
-
-                            <time className="ml-[85px] text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                                {item.Place}
-                            </time>
-
-
-                            <h3 className="mt-5 text-lg font-semibold text-gray-900 dark:text-white">
-                                {item.title}
-                            </h3>
-
-
-                            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                                {item.description}
-                            </p>
-
-
-                            {index === timelineData.length - 1 && (
-                                <style>{`
-                                ol > li:last-child {
-                                    margin-bottom: 0;
-                                }
-                            `}</style>
-                            )}
-                        </li>
-                        {index === timelineData.length - 1 ? '' : <hr className="border-s border-gray-200 dark:border-gray-700 mb-3" />}
-                    </div>
-                ))}
-
-                    </ol>
-                </div>
-                <div>
-                    <h2 className="text-3xl font-bold py-[40px]">
-                        <span className="text-green-500">Edu</span>cation
-                    </h2>
-                    <ol className="  mt-3 lg:mt-0 relative border-s border-gray-200 dark:border-gray-700 ">
-                        {EdutimelineData.map((item, index) => (
-                            <div>
-                                <li key={index} className="ms-4 mb-10">
-
-                                    <div className="absolute text-sm -start-3 p-1 border rounded-full  dark:border-green-700 ">{item.duration}</div>
-
-
-                                    <time className="ml-[60px] text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                                        {item.Place}
-                                    </time>
-
-
-                                    <h3 className="mt-5 text-lg font-semibold text-gray-900 dark:text-white">
-                                        {item.title}
-                                    </h3>
-
-
-                                    <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                                        {item.description}
-                                    </p>
-
-
-                                    {index === timelineData.length - 1 && (
-                                        <style>{`
-                                ol > li:last-child {
-                                    margin-bottom: 0;
-                                    
-                                }
-                                
-                            `}</style>
-                                    )}
-                                </li>
-                                {index === EdutimelineData.length - 1 ? '' : <hr className="border-s border-gray-200 dark:border-gray-700 mb-3" />}
-                            </div>
-                        ))}
-                    </ol>
-                </div>
+  <div className="lg:flex lg:space-x-10 p-3 lg:p-6">
+    {/* Experience Section */}
+    <div>
+      <h2 className="text-3xl font-bold py-[40px]">
+        <span className="text-green-500">Exp</span>erience
+      </h2>
+      <ol className="relative border-s border-gray-200 dark:border-gray-700">
+        {timelineData.map((item, index) => (
+          <div key={index} className="flex items-start mb-10 last:mb-0">
+            {/* Vertical line & badge container */}
+            <div className="relative flex-none">
+              {/* Badge */}
+              <div className="inline-block px-4 py-1 text-white border border-green-500 rounded-full bg-[#0f172a]">
+                {item.duration}
+              </div>
             </div>
 
-        </section>
+            {/* Content next to badge */}
+            <div className="ml-6">
+              <time className="block text-sm text-gray-400 dark:text-gray-500">
+                {item.Place}
+              </time>
+              <h3 className="mt-1 text-lg font-semibold text-gray-900 dark:text-white">
+                {item.title}
+              </h3>
+              <p className="mt-1 text-base text-gray-500 dark:text-gray-400">
+                {item.description}
+              </p>
+            </div>
+          </div>
+        ))}
+      </ol>
+    </div>
+
+    {/* Education Section */}
+    <div>
+      <h2 className="text-3xl font-bold py-[40px]">
+        <span className="text-green-500">Edu</span>cation
+      </h2>
+      <ol className="relative border-s border-gray-200 dark:border-gray-700">
+        {EdutimelineData.map((item, index) => (
+          <div key={index} className="flex items-start mb-10 last:mb-0">
+            {/* Badge */}
+            <div className="relative flex-none">
+              <div className="inline-block px-4 py-1 text-white border border-green-500 rounded-full bg-[#0f172a]">
+                {item.duration}
+              </div>
+            </div>
+
+            {/* Content */}
+            <div className="ml-6">
+              <time className="block text-sm text-gray-400 dark:text-gray-500">
+                {item.Place}
+              </time>
+              <h3 className="mt-1 text-lg font-semibold text-gray-900 dark:text-white">
+                {item.title}
+              </h3>
+              <p className="mt-1 text-base text-gray-500 dark:text-gray-400">
+                {item.description}
+              </p>
+            </div>
+          </div>
+        ))}
+      </ol>
+    </div>
+  </div>
+</section>
+
+
     );
 }
