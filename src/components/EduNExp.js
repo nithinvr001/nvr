@@ -46,17 +46,17 @@ export default function EduNExp() {
       </h2>
       <ol className="relative border-s border-gray-200 dark:border-gray-700">
         {timelineData.map((item, index) => (
-          <div key={index} className="flex items-start mb-10 last:mb-0">
+          <div key={index} className="items-start mb-10 last:mb-0">
             {/* Vertical line & badge container */}
             <div className="relative flex-none">
               {/* Badge */}
-              <div className="inline-block px-4 py-1 text-white border border-green-500 rounded-full bg-[#0f172a]">
+              <div className="inline-block -ml-5 px-4 py-1 text-white border border-green-500 rounded-full bg-[#0f172a]">
                 {item.duration}
               </div>
             </div>
 
             {/* Content next to badge */}
-            <div className="ml-6">
+            <div className="ml-6 mt-5">
               <time className="block text-sm text-gray-400 dark:text-gray-500">
                 {item.Place}
               </time>
@@ -79,16 +79,16 @@ export default function EduNExp() {
       </h2>
       <ol className="relative border-s border-gray-200 dark:border-gray-700">
         {EdutimelineData.map((item, index) => (
-          <div key={index} className="flex items-start mb-10 last:mb-0">
+          <div key={index} className=" items-start mb-10 last:mb-0">
             {/* Badge */}
             <div className="relative flex-none">
-              <div className="inline-block px-4 py-1 text-white border border-green-500 rounded-full bg-[#0f172a]">
+              <div className="inline-block -ml-5 px-4 py-1 text-white border border-green-500 rounded-full bg-[#0f172a]">
                 {item.duration}
               </div>
             </div>
 
             {/* Content */}
-            <div className="ml-6">
+            <div className="ml-6 mt-5">
               <time className="block text-sm text-gray-400 dark:text-gray-500">
                 {item.Place}
               </time>
