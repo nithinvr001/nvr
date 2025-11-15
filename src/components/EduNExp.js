@@ -38,73 +38,73 @@ export default function EduNExp() {
     return (
         
         <section className="text-white p-3 lg:p-6">
-  <div className="lg:flex lg:space-x-10 p-3 lg:p-6">
-    {/* Experience Section */}
-    <div>
-      <h2 className="text-3xl font-bold py-[40px]">
-        <span className="text-green-500">Exp</span>erience
-      </h2>
-      <ol className="relative border-s border-gray-200 dark:border-gray-700">
-        {timelineData.map((item, index) => (
-          <div key={index} className="items-start mb-10 last:mb-0">
-            {/* Vertical line & badge container */}
-            <div className="relative flex-none">
-              {/* Badge */}
-              <div className="inline-block -ml-5 px-4 py-1 text-white border border-green-500 rounded-full bg-[#0f172a]">
-                {item.duration}
-              </div>
-            </div>
+                      <div className="lg:flex lg:space-x-10 p-3 lg:p-6">
+                        {/* Experience Section */}
+                        <div>
+                          <h2 className="text-3xl font-bold py-[40px]">
+                            <span className="text-green-500">Exp</span>erience
+                          </h2>
+                          <ol className="relative border-s border-gray-200 dark:border-gray-700">
+                            {timelineData.map((item, index) => (
+                              <div key={index} className="items-start mb-10 last:mb-0">
+                                {/* Vertical line & badge container */}
+                                <div className="relative flex-none">
+                                  {/* Badge */}
+                                  <div className="inline-block -ml-5 px-4 py-1 text-white border border-green-500 rounded-full bg-[#0f172a]">
+                                    {item.duration}
+                                  </div>
+                                </div>
 
-            {/* Content next to badge */}
-            <div className="ml-6 mt-5">
-              <time className="block text-sm text-gray-400 dark:text-gray-500">
-                {item.Place}
-              </time>
-              <h3 className="mt-1 text-lg font-semibold text-gray-900 dark:text-white">
-                {item.title}
-              </h3>
-              <p className="mt-1 text-base text-gray-500 dark:text-gray-400">
-                {item.description}
-              </p>
-            </div>
-          </div>
-        ))}
-      </ol>
-    </div>
+                                {/* Content next to badge */}
+                                <div className="ml-6 mt-5">
+                                  <time className="block text-sm text-gray-400 dark:text-gray-500">
+                                    {item.Place}
+                                  </time>
+                                  <h3 className="mt-1 text-lg font-semibold text-gray-900 dark:text-white">
+                                    {item.title}
+                                  </h3>
+                                  <p className="mt-1 text-base text-gray-500 dark:text-gray-400">
+                                    {item.description}
+                                  </p>
+                                </div>
+                              </div>
+                            ))}
+                          </ol>
+                        </div>
 
-    {/* Education Section */}
-    <div>
-      <h2 className="text-3xl font-bold py-[40px]">
-        <span className="text-green-500">Edu</span>cation
-      </h2>
-      <ol className="relative border-s border-gray-200 dark:border-gray-700">
-        {EdutimelineData.map((item, index) => (
-          <div key={index} className=" items-start mb-10 last:mb-0">
-            {/* Badge */}
-            <div className="relative flex-none">
-              <div className="inline-block -ml-5 px-4 py-1 text-white border border-green-500 rounded-full bg-[#0f172a]">
-                {item.duration}
-              </div>
-            </div>
+                        {/* Education Section */}
+                        <div>
+                          <h2 className="text-3xl font-bold py-[40px]">
+                            <span className="text-green-500">Edu</span>cation
+                          </h2>
+                          <ol className="relative border-s border-gray-200 dark:border-gray-700">
+                            {EdutimelineData.map((item, index) => (
+                              <div key={index} className=" items-start mb-10 last:mb-0">
+                                {/* Badge */}
+                                <div className="relative flex-none">
+                                  <div className="inline-block -ml-5 px-4 py-1 text-white border border-green-500 rounded-full bg-[#0f172a]">
+                                    {item.duration}
+                                  </div>
+                                </div>
 
-            {/* Content */}
-            <div className="ml-6 mt-5">
-              <time className="block text-sm text-gray-400 dark:text-gray-500">
-                {item.Place}
-              </time>
-              <h3 className="mt-1 text-lg font-semibold text-gray-900 dark:text-white">
-                {item.title}
-              </h3>
-              <p className="mt-1 text-base text-gray-500 dark:text-gray-400">
-                {item.description}
-              </p>
-            </div>
-          </div>
-        ))}
-      </ol>
-    </div>
-  </div>
-</section>
+                                {/* Content */}
+                                <div className="ml-6 mt-5">
+                                  <time className="block text-sm text-gray-400 dark:text-gray-500">
+                                    {item.Place}
+                                  </time>
+                                  <h3 className="mt-1 text-lg font-semibold text-gray-900 dark:text-white">
+                                    {item.title}
+                                  </h3>
+                                  <p className="mt-1 text-base text-gray-500 dark:text-gray-400">
+                                    {item.description}
+                                  </p>
+                                </div>
+                              </div>
+                            ))}
+                          </ol>
+                        </div>
+                      </div>
+                    </section>
 
 
     );

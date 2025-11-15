@@ -6,7 +6,7 @@ import { ReactTyped } from 'react-typed';
 export default function Hero() {
   return (
     <div>
-        <h1 className='text-white !font-serif ml-[20px] pt-[20px] my-[50px] text-5xl'>NITHIN V R</h1>
+        <div className='ml-[20px] pt-[20px] my-[50px]'></div>
       <div className='lg:flex'>
           <img
             src={deskImage}
@@ -15,7 +15,7 @@ export default function Hero() {
           />
         <div className="bg-gray-900 p-3 lg:p-6 rounded-xl mx-auto lg:mx-0 shadow-xl w-[90%] lg:w-full lg:h-[430px]  lg:ml-[-5%] lg:mt-[50px] lg:mr-[20px]">
           <p className="text-green-500 mb-2">
-            &lt;code&gt;I build{' '}
+            &lt;code&gt; I build{' '}
             <span className="text-white font-bold">
               <ReactTyped
                 strings={[
@@ -33,7 +33,9 @@ export default function Hero() {
             </span>
             |&lt;/code&gt;
           </p>
-            <h1 className="text-2xl font-bold mb-2">Nithin</h1>
+          <h1 className="text-5xl lg:text-5xl font-extralight mb-4 tracking-[0.2em] bg-gradient-to-r from-white via-gray-100 to-gray-300 bg-clip-text text-transparent">
+  NITHIN <span className="font-semibold">V R</span>
+</h1>
             <div className="flex gap-3 text-lg mb-4">
 
              <div className="flex gap-3 text-lg mb-4">
@@ -60,7 +62,7 @@ export default function Hero() {
               I'm a Bengaluru-based <strong>Frontend Software Engineer</strong>, currently  <strong>Freelancing</strong> helping build a modern, site builder and actively looking for Job Opportunities.
             </p>
             <p className="mt-3 text-gray-400">
-            In my free time, you can catch me playing <strong> Badminton</strong>,<strong> Billiards</strong>, learning <strong>New technologies </strong> and  <strong> Exploring / Travelling</strong>.
+              In my free time, you can catch me playing <strong> Badminton</strong>,<strong> Billiards</strong>, learning <strong>New technologies </strong> and  <strong> Exploring / Travelling</strong>.
             </p>
             {/* <div className="mt-4 flex gap-4">
               <button className="bg-accent text-black px-4 py-2 rounded-lg font-semibold hover:bg-green-400">Resume</button>
