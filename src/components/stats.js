@@ -3,7 +3,7 @@ import { FaGithub, FaGoogle, FaLinkedin,  } from "react-icons/fa6";
 
 export default function Stats() {
   const CardsData = [{
-   CardHeading : 'Years of Experience' , Value: '1 year 5 months', Icon: <FaLinkedin/>
+   CardHeading : 'Years of Experience' , Value: '2 year 5 months', Icon: <FaLinkedin/>
   }, {
       CardHeading: 'Projects', Value: '5', Icon: <FaGithub/>
     },{
